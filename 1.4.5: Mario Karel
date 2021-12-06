@@ -1,0 +1,42 @@
+turnLeft();
+move();
+move();
+move();
+turnRight();
+move();
+collectCoins();
+turnLeft();
+move();
+turnRight();
+move();
+move();
+turnRight();
+move();
+collectCoins();
+move();
+turnLeft();
+move();
+move();
+turnLeft();
+move();
+collectCoins();
+move();
+turnRight();
+move();
+move();
+turnRight();
+move();
+collectCoins();
+move();
+move();
+move();
+turnLeft();
+function turnRight(){
+    turnLeft();
+    turnLeft();
+    turnLeft();
+}
+function collectCoins(){
+    takeBall();
+    takeBall();
+}
