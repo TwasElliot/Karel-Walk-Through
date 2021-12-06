@@ -1,0 +1,41 @@
+function start(){
+
+
+
+    while (frontIsClear()) {
+
+
+
+        if (noBallsPresent()) {
+
+
+
+            putBall();
+
+
+
+            move();
+
+
+
+        }
+
+
+
+    }
+
+
+
+    if (noBallsPresent()) {
+
+
+
+        putBall();
+
+
+
+    }
+
+
+
+}
