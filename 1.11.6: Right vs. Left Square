@@ -1,0 +1,35 @@
+function start() {
+    if(facingEast()){
+        makeLeftSquare();
+    }else{
+        makeRightSquare();
+    }
+}
+function makeRightSquare() {
+    putBall();
+    move();
+    putBall();
+    turnRight();
+    move();
+    putBall();
+    turnRight();
+    move();
+    putBall();
+    turnRight();
+    move();
+    turnRight();
+}
+function makeLeftSquare() {
+    putBall();
+    move();
+    putBall();
+    turnLeft();
+    move();
+    putBall();
+    turnLeft();
+    move();
+    putBall();
+    turnLeft();
+    move();
+    turnLeft();
+}
