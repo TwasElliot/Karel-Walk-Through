@@ -1,0 +1,35 @@
+function start(){
+    runtoPancakes();
+    putPancakes();
+    goBack();
+    putPancakes();
+    move();
+    turnRight();
+}
+/*
+* allows karel to get in line to drop the balls
+*/
+function runtoPancakes(){
+    move();
+    turnLeft();
+}
+/*
+* Karel drops all 3 balls in the appropriate position
+*/
+function putPancakes(){
+    putBall();
+    move();
+    putBall();
+    move();
+    putBall();
+}
+function goBack(){
+    turnRight();
+    move();
+    turnRight();
+    move();
+    move();
+    turnLeft();
+    move();
+    turnLeft();
+}
