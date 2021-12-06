@@ -1,0 +1,16 @@
+function start(){
+    for(var i = 0; i < 5; i++){
+        move();
+        move();
+        turnLeft();
+        move();
+        turnRight();
+        move();
+        turnRight();
+        jumpHurdle();
+        turnLeft();
+    }
+}
+function jumpHurdle(){
+    move();
+}
